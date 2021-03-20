@@ -1,9 +1,9 @@
 name: .NET
 on:
   push:
-    branches: [ main ]
+    branches: [ main, AddTestsToGithubAction ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, AddTestsToGithubAction ]
 
 jobs:
   build:
